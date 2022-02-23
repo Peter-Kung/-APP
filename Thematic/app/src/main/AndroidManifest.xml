@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.thematic">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        <activity android:name=".Inform_Arrange"></activity>
+>>>>>>> ae6a58894560439f00263238404804896b5dd053
+=======
+        <activity android:name=".activity_schedule"></activity>
+=======
+        <activity android:name=".menu_for_manager"></activity>
+        <activity android:name=".activity_schedule" />
+>>>>>>> 791a96f7f7ea2ab7d1d626ee1f6b0d5c8337d10c
+        <activity android:name=".activity_register_choose" />
+>>>>>>> 90dfd2241a0db5ee2d88d9cbcc51f3ca52040d02
+        <activity android:name=".activity_register1" />
+>>>>>>> 90dfd2241a0db5ee2d88d9cbcc51f3ca52040d02
+        <activity android:name=".People_Selection" />
+        <activity android:name=".ServiceCheck" />
+        <activity android:name=".Activity_register" />
+        <activity android:name=".PersonalData" />
+        <activity android:name=".Menu" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
